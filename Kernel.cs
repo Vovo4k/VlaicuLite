@@ -14,30 +14,23 @@ namespace VlaicuOS
         {
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Clear();
-            Console.WriteLine("      /\"; ;:; ; \"\\");
+            Console.WriteLine("      |\\      _,,,---,,_\r\nZZZzz /,`.-'`'    -.  ;-;;,_\r\n     |,4-  ) )-,_. ,\\ (  `'-'\r\n    '---''(_/--'  `-'\\_)  Nikusea :3 ");
             Console.Beep(422, 444);
-            Console.WriteLine("    (:;/\\ - /\\;;)");
             Console.Beep(440, 444);
-            Console.WriteLine("   (:;{  o -  }:;)");
             Console.Beep(422, 444);
-            Console.WriteLine("    (:;\\__Y__/;;)-----------,,_");
             Console.Beep(440, 444);
-            Console.WriteLine("   (::         ;;               \\");
             Console.Beep(422, 444);
-            Console.WriteLine("    (,,,)~(,,,)`-._______________)");
             Console.Beep(440, 444);
             Console.WriteLine("Welcome to VlaicuLite");
             Console.Beep(422, 888);
             Console.Clear();
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("VlaicuLite version 0.01");
+            Console.WriteLine("VlaicuLite version 0.02");
             Console.WriteLine("Powered by Cosmos");
             Console.WriteLine("Options:");
             Console.WriteLine("1: Boot Vlaicu OS normally");
             Console.WriteLine("2: Boot without FileSystem");
             Console.Write("Thanks to ");
-            Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.Write("Kammerl.de ");
             Console.ForegroundColor = ConsoleColor.White;
             Console.Write("for the logo!");
             Console.WriteLine("");
@@ -86,13 +79,13 @@ namespace VlaicuOS
             else if (option.Contains("1"))
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Vlaicu OS version 0.01");
+                Console.WriteLine("Vlaicu OS version 0.02");
                 Console.WriteLine("For help, run command: help.");
             }
             else if (option.Contains("2"))
             {
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.WriteLine("Aqua OS version 0.01");
+                Console.WriteLine("VlaicuOS version 0.02");
                 Console.WriteLine("For help, run command: help.");
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("WARNING: You have booted without a filesytem. DO NOT try to use it!");
